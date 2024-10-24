@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.suppliers-list {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding-left: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.print-icon {
+  font-size: 20px;
+  color: #03a9f4;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.suppliers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.suppliers-table th, .suppliers-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.suppliers-table th {
+  background-color: #56cfe1;
+  color: white;
+}
+
+.suppliers-table td {
+  background-color: #f9f9f9;
+}
+
+.suppliers-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.inline-upload-icon {
+    margin-right: 8px; /* Adds some space between the icon and the number */
+    color: red; /* Set the upload icon color to red */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+  }
+  

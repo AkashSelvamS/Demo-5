@@ -1,0 +1,94 @@
+/* Stock list container */
+.stock-list {
+  margin: 20px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space out title and search container */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+h2 {
+  margin: 0; /* Remove default margin */
+  font-weight: bold;
+}
+
+/* Search container */
+.search-container {
+  display: flex; /* Align the search bar and icon in a row */
+  align-items: center; /* Center them vertically */
+}
+
+/* Search bar and icon wrapper */
+.search-wrapper {
+  position: relative; /* Position for absolute positioning of the icon */
+  display: flex;
+  align-items: center;
+}
+
+/* Search bar styles */
+.search-bar {
+  width: 300px; /* Set the width of the search bar */
+  padding: 10px 40px 10px 35px; /* Add padding to create space for the icon */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for modern look */
+  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+}
+
+.search-bar:focus {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Search icon inside the search bar */
+.search-icon {
+  position: absolute;
+  left: 10px; /* Space from the left */
+  top: 50%; /* Vertically center */
+  transform: translateY(-50%);
+  color: #007bff;
+  font-size: 18px;
+}
+
+/* Print icon */
+.print-icon {
+  font-size: 24px;
+  color: #007bff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.print-icon:hover {
+  color: #0056b3;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #56cfe1;
+}
+
+/* Select dropdown */
+.search-select {
+  margin-right: 10px;
+  padding: 8px; /* Adjust padding */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Keep this for consistency */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect for the select */
+}
